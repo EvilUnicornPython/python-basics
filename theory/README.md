@@ -15,7 +15,7 @@
 |------|-------|
 | [`python.md`](python.md) | Язык и его внутренности: GIL, asyncio, `__slots__`, `__hash__`, дескрипторы, замыкания, тесты и моки, JWT, stateless, OOM. |
 | [`software-engineering.md`](software-engineering.md) | Backend-инженерия: выбор БД, индексы, миграции, дедлоки, SLA/SLO, очереди, CI/CD, линтеры, Docker, Kubernetes, Helm, Terraform, сеть. |
-| [`system-design.md`](system-design.md) | Архитектурное «мясо» (NFR, контракты API, кэширование, надёжность, observability, DDD, БД, очереди, k8s, облака) + как проходить сисдиз-интервью: тайминг, C4-модель, универсальный фрейм ответа. |
+| [`system-design.md`](system-design.md) | Отдельный трек по сисдизу: playbook интервью (тайминг, требования, оценка нагрузки, C4), топ ошибок с моков, шаблон доски, «салфетки», темы-триггеры (NFR, БД, кэш, очереди, надёжность, DDD, k8s, облака). |
 | [`livecode.md`](livecode.md) | Лайвкод: ссылка на минимум задач для нарешивания на литкоде. |
 | [`aws.md`](aws.md) | Минимум по AWS для python-backend: IAM, compute, S3, RDS/DynamoDB, очереди, VPC, observability, IaC, secrets, стоимость + практика. |
 | [`resume-skills.md`](resume-skills.md) | Минимальный и опциональный набор хардов для резюме питониста. |
@@ -24,7 +24,7 @@
 1. **Оцени пробелы** — пробегись по [`resume-skills.md`](resume-skills.md): что из хардов уже знаешь, что нет.
 2. **Учи теорию порциями** — [`python.md`](python.md) и [`software-engineering.md`](software-engineering.md), потом [`aws.md`](aws.md). Иди по темам сверху вниз.
 3. **Лайвкод** — [`livecode.md`](livecode.md), нарешивай задачи параллельно всей подготовке.
-4. **System design и архитектура** — [`system-design.md`](system-design.md) бонусная секция отдельным подходом, только если назначили сисдиз этап или хочется идти в staff+.
+4. **System design и архитектура** — [`system-design.md`](system-design.md) отдельный трек со своим маршрутом, только если назначили сисдиз этап или хочется идти в staff+.
 
 После блока теории закрепляй руками в [`../practice/`](../practice).
 
